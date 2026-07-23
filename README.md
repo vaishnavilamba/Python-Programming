@@ -10,3 +10,4 @@ This repository contains my Python learning journey.
 - Tuple
 - Sets
 - Dictionaries
+- Functions
