@@ -1,0 +1,6 @@
+Hello World!
+This is New Line.This is written by using append mode.
+This is written by using append mode.
+First Line 
+Second Line 
+Third Line 

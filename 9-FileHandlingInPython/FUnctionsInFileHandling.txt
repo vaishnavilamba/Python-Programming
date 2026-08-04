@@ -1,0 +1,49 @@
+
+##Python File Handling Functions Cheat Sheet
+
+| Function       | Purpose                    | Short Note                                                                         |
+| -------------- | -------------------------- | ---------------------------------------------------------------------------------- |
+| `open()`       | Opens a file               | Creates a file object for reading or writing.                                      |
+| `close()`      | Closes the file            | Releases system resources. Not needed when using `with`.                           |
+| `read()`       | Reads entire file          | Returns the whole file as a single string.                                         |
+| `read(size)`   | Reads specified characters | Reads only the given number of characters.                                         |
+| `readline()`   | Reads one line             | Returns the next line from the file.                                               |
+| `readlines()`  | Reads all lines            | Returns a list where each element is one line.                                     |
+| `write()`      | Writes text                | Writes a string into the file.                                                     |
+| `writelines()` | Writes multiple lines      | Writes a list (or other iterable) of strings. Does **not** add `\n` automatically. |
+| `seek()`       | Moves file pointer         | Changes the current reading/writing position.                                      |
+| `tell()`       | Gets current position      | Returns the current file pointer position.                                         |
+| `flush()`      | Saves buffer immediately   | Forces buffered data to be written to disk.                                        |
+
+
+
+File Modes
+
+| Mode   | Meaning                                                   |
+| ------ | --------------------------------------------------------- |
+| `"r"`  | Read only (file must exist)                               |
+| `"w"`  | Write (creates a new file or overwrites existing content) |
+| `"a"`  | Append (adds content at the end)                          |
+| `"x"`  | Create a new file (fails if the file already exists)      |
+| `"r+"` | Read and write                                            |
+| `"w+"` | Read and write (overwrites existing content)              |
+| `"a+"` | Read and append                                           |
+| `"rb"` | Read binary file                                          |
+| `"wb"` | Write binary file                                         |
+| `"ab"` | Append binary file                                        |
+
+
+Summary for Revision
+
+| Function       | Returns                      | Main Use                          |
+| -------------- | ---------------------------- | --------------------------------- |
+| `open()`       | File object                  | Open a file                       |
+| `read()`       | String                       | Read the whole file               |
+| `readline()`   | String                       | Read one line                     |
+| `readlines()`  | List                         | Read all lines                    |
+| `write()`      | Number of characters written | Write a string                    |
+| `writelines()` | None                         | Write multiple strings            |
+| `seek()`       | None                         | Move the file pointer             |
+| `tell()`       | Integer                      | Get the current pointer position  |
+| `close()`      | None                         | Close the file                    |
+| `flush()`      | None                         | Force buffered data to be written |
