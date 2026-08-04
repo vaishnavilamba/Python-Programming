@@ -12,3 +12,4 @@ This repository contains my Python learning journey.
 - Dictionaries
 - Functions
 - Modules and Packages
+- File Handling 
