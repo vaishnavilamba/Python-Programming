@@ -1,0 +1,26 @@
+Python Generators and yield
+
+A generator in Python is a special type of function that produces values one at a time, instead of creating and storing all values in memory at once.
+
+The keyword that makes a function a generator is yield.
+
+1. First understand the normal function
+
+Suppose we want numbers from 1 to 5:
+
+def get_numbers():
+    return [1, 2, 3, 4, 5]
+
+
+numbers = get_numbers()
+print(numbers)
+
+Output:
+
+[1, 2, 3, 4, 5]
+
+Here, the complete list is created and stored in memory.
+
+Imagine we need 1 crore numbers. Creating a huge list can consume a lot of memory.
+
+This is where generators are useful.
