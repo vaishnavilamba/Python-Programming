@@ -1,0 +1,4 @@
+26:09:14 10:21:05-ArithmeticApp-DEBUG-Adding 5 + 4 = 9
+26:09:14 10:21:05-ArithmeticApp-DEBUG-Subtracting 1 - 2 = -1
+26:09:14 10:21:05-ArithmeticApp-DEBUG-Multiplying 4 * 5 = 20
+26:09:14 10:21:05-ArithmeticApp-ERROR-Divison by zero error
